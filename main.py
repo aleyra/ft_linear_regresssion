@@ -7,7 +7,7 @@ from normalize import normalize, reverse_normalize
 
 if __name__ == "__main__":
     data = get_data()
-    print(data)
+    # print(data)
     df, my_map = normalize(data)
     (theta0, theta1) = linear_regression(df)
     n_theta0 = reverse_normalize(theta0, my_map, "km")
