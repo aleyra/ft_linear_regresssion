@@ -1,0 +1,6 @@
+__pycache__
+ENV_linear_regression
+
+# to force in perso repo
+.gitignore
+en.subject.pdf
